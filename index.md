@@ -1,9 +1,9 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-05-11T01:13:54Z"
-total_sessions_since_last_sync: 0
-public_sessions_since_last_sync: 0
-sessions_omitted_count: 11
+mirror_synced_at: "2026-05-11T01:14:16Z"
+total_sessions_since_last_sync: 1
+public_sessions_since_last_sync: 1
+sessions_omitted_count: 12
 source: mirror
 window_size: 10
 ---
@@ -18,12 +18,13 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 0
-- Of those, public: 0
-- Public sessions beyond the N=10 window (older, not mirrored here): 11
+- Sessions added or changed since last sync: 1
+- Of those, public: 1
+- Public sessions beyond the N=10 window (older, not mirrored here): 12
 
 ## Sessions in this mirror (newest first)
 
+- [`sessions/2026-05-11T2359-smoke-test-cs283.md`](sessions/2026-05-11T2359-smoke-test-cs283.md)
 - [`sessions/2026-05-10T0755-cs237-diagnostic.md`](sessions/2026-05-10T0755-cs237-diagnostic.md)
 - [`sessions/2026-05-09T0052-CS-281-CS-194-verify-followup.md`](sessions/2026-05-09T0052-CS-281-CS-194-verify-followup.md)
 - [`sessions/2026-05-08T1508-CS-194-verify-extended.md`](sessions/2026-05-08T1508-CS-194-verify-extended.md)
@@ -33,4 +34,3 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-05-07T1256-phase-alpha-2-superseded-banner.md`](sessions/2026-05-07T1256-phase-alpha-2-superseded-banner.md)
 - [`sessions/2026-05-07T1244-CS-279.md`](sessions/2026-05-07T1244-CS-279.md)
 - [`sessions/2026-05-07T0725-CS-158-citation-fix.md`](sessions/2026-05-07T0725-CS-158-citation-fix.md)
-- [`sessions/2026-05-07T0653-CS-158.md`](sessions/2026-05-07T0653-CS-158.md)
