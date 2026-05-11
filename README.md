@@ -39,13 +39,24 @@ Individual sessions can be excluded from this mirror by adding `public: false` t
 
 The mirror surfaces the **newest 10** bridge sessions by filename timestamp (filenames sort alphabetically = chronologically by design). Older sessions remain in the private repo only. This is bounded to keep the public surface small; `sessions_omitted_count` flags weeks where the window is insufficient.
 
+## Consumer-contract ADRs
+
+`decisions/` contains ADRs flagged `consumer_contract: true` on the private side. These document contracts that cross-project AI consumers (currently raku-brain) MUST follow. The same `mirror_synced_at` sentinel discipline applies — verify freshness in `index.md` BEFORE fetching any ADR by raw URL pattern `https://raw.githubusercontent.com/vgera-xyz/colobbo-bridge-public/main/decisions/<filename>`.
+
+**Currently mirrored:**
+
+- [`decisions/adr-017-public-bridge-mirror-pattern.md`](decisions/adr-017-public-bridge-mirror-pattern.md) — the public mirror pattern itself (consumer contract for fetching from this mirror).
+
+Default is opt-out. ADRs without `consumer_contract: true` on the private side are NOT mirrored here. No omit-window applies — the full set of flagged ADRs is mirrored on every sync, since consumers need the CURRENT contract state, not a sliding window. (Per CS-288.)
+
 ## Layout
 
 ```
 colobbo-bridge-public/
 ├── README.md      ← this file
 ├── index.md       ← frontmatter sentinel + count fields + cross-link list
-└── sessions/      ← latest N=10 session entries, immutable filenames
+├── sessions/      ← latest N=10 session entries, immutable filenames
+└── decisions/     ← ADRs flagged consumer_contract: true (full set, no window)
 ```
 
 ## Pattern reference
