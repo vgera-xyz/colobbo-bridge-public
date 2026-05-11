@@ -1,7 +1,7 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-05-11T01:14:40Z"
-total_sessions_since_last_sync: 1
+mirror_synced_at: "2026-05-11T01:14:57Z"
+total_sessions_since_last_sync: 0
 public_sessions_since_last_sync: 0
 sessions_omitted_count: 11
 source: mirror
@@ -18,7 +18,7 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 1
+- Sessions added or changed since last sync: 0
 - Of those, public: 0
 - Public sessions beyond the N=10 window (older, not mirrored here): 11
 
