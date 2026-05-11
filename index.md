@@ -1,8 +1,8 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-05-11T05:25:28Z"
-total_sessions_since_last_sync: 1
-public_sessions_since_last_sync: 1
+mirror_synced_at: "2026-05-11T07:27:27Z"
+total_sessions_since_last_sync: 0
+public_sessions_since_last_sync: 0
 sessions_omitted_count: 13
 source: mirror
 window_size: 10
@@ -18,8 +18,8 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 1
-- Of those, public: 1
+- Sessions added or changed since last sync: 0
+- Of those, public: 0
 - Public sessions beyond the N=10 window (older, not mirrored here): 13
 
 ## Sessions in this mirror (newest first)
@@ -34,3 +34,9 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-05-07T1352-COL-203.md`](sessions/2026-05-07T1352-COL-203.md)
 - [`sessions/2026-05-07T1256-phase-alpha-2-superseded-banner.md`](sessions/2026-05-07T1256-phase-alpha-2-superseded-banner.md)
 - [`sessions/2026-05-07T1244-CS-279.md`](sessions/2026-05-07T1244-CS-279.md)
+
+## Consumer-contract ADRs
+
+These are architecture decision records that consumers MUST read for the contracts they describe. The same `mirror_synced_at` sentinel rules apply — verify freshness before fetching by URL.
+
+- [`decisions/adr-017-public-bridge-mirror-pattern.md`](decisions/adr-017-public-bridge-mirror-pattern.md)
