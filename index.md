@@ -1,9 +1,9 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-05-18T04:31:57Z"
-total_sessions_since_last_sync: 53
-public_sessions_since_last_sync: 53
-sessions_omitted_count: 43
+mirror_synced_at: "2026-05-18T04:53:26Z"
+total_sessions_since_last_sync: 54
+public_sessions_since_last_sync: 54
+sessions_omitted_count: 44
 source: mirror
 window_size: 10
 ---
@@ -18,12 +18,13 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 53
-- Of those, public: 53
-- Public sessions beyond the N=10 window (older, not mirrored here): 43
+- Sessions added or changed since last sync: 54
+- Of those, public: 54
+- Public sessions beyond the N=10 window (older, not mirrored here): 44
 
 ## Sessions in this mirror (newest first)
 
+- [`sessions/2026-05-18T0450-CS-338.md`](sessions/2026-05-18T0450-CS-338.md)
 - [`sessions/2026-05-18T0428-CS-340.md`](sessions/2026-05-18T0428-CS-340.md)
 - [`sessions/2026-05-18T0053-CS-320.md`](sessions/2026-05-18T0053-CS-320.md)
 - [`sessions/2026-05-18T0022-CS-216.md`](sessions/2026-05-18T0022-CS-216.md)
@@ -33,7 +34,6 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-05-17T0339-CS-336.md`](sessions/2026-05-17T0339-CS-336.md)
 - [`sessions/2026-05-17T0219-CS-325.md`](sessions/2026-05-17T0219-CS-325.md)
 - [`sessions/2026-05-16T1617-CS-146.md`](sessions/2026-05-16T1617-CS-146.md)
-- [`sessions/2026-05-16T1306-CS-294.md`](sessions/2026-05-16T1306-CS-294.md)
 
 ## Consumer-contract ADRs
 
