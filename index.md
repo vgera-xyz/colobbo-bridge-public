@@ -1,9 +1,9 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-05-18T14:01:54Z"
+mirror_synced_at: "2026-05-19T05:54:17Z"
 total_sessions_since_last_sync: 1
 public_sessions_since_last_sync: 1
-sessions_omitted_count: 47
+sessions_omitted_count: 48
 source: mirror
 window_size: 10
 ---
@@ -20,10 +20,11 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 - Sessions added or changed since last sync: 1
 - Of those, public: 1
-- Public sessions beyond the N=10 window (older, not mirrored here): 47
+- Public sessions beyond the N=10 window (older, not mirrored here): 48
 
 ## Sessions in this mirror (newest first)
 
+- [`sessions/2026-05-19T0550-COL-79.md`](sessions/2026-05-19T0550-COL-79.md)
 - [`sessions/2026-05-18T1357-CS-138.md`](sessions/2026-05-18T1357-CS-138.md)
 - [`sessions/2026-05-18T0801-CS-138-audit-fix-and-build-discovery.md`](sessions/2026-05-18T0801-CS-138-audit-fix-and-build-discovery.md)
 - [`sessions/2026-05-18T0651-CS-342-audit-dogfood-smoke.md`](sessions/2026-05-18T0651-CS-342-audit-dogfood-smoke.md)
@@ -33,7 +34,6 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-05-18T0022-CS-216.md`](sessions/2026-05-18T0022-CS-216.md)
 - [`sessions/2026-05-17T1053-CS-328.md`](sessions/2026-05-17T1053-CS-328.md)
 - [`sessions/2026-05-17T0950-CS-326.md`](sessions/2026-05-17T0950-CS-326.md)
-- [`sessions/2026-05-17T0508-CS-327.md`](sessions/2026-05-17T0508-CS-327.md)
 
 ## Consumer-contract ADRs
 
