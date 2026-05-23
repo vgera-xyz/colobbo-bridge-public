@@ -1,9 +1,9 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-05-23T00:59:28Z"
-total_sessions_since_last_sync: 2
-public_sessions_since_last_sync: 2
-sessions_omitted_count: 59
+mirror_synced_at: "2026-05-23T12:43:55Z"
+total_sessions_since_last_sync: 1
+public_sessions_since_last_sync: 1
+sessions_omitted_count: 60
 source: mirror
 window_size: 10
 ---
@@ -18,12 +18,13 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 2
-- Of those, public: 2
-- Public sessions beyond the N=10 window (older, not mirrored here): 59
+- Sessions added or changed since last sync: 1
+- Of those, public: 1
+- Public sessions beyond the N=10 window (older, not mirrored here): 60
 
 ## Sessions in this mirror (newest first)
 
+- [`sessions/2026-05-23T0940-CS-368.md`](sessions/2026-05-23T0940-CS-368.md)
 - [`sessions/2026-05-23T0050-CS-367.md`](sessions/2026-05-23T0050-CS-367.md)
 - [`sessions/2026-05-21T1604-CS-366.md`](sessions/2026-05-21T1604-CS-366.md)
 - [`sessions/2026-05-21T0847-CS-294.md`](sessions/2026-05-21T0847-CS-294.md)
@@ -33,7 +34,6 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-05-19T1634-CS-330.md`](sessions/2026-05-19T1634-CS-330.md)
 - [`sessions/2026-05-19T1424-CS-351.md`](sessions/2026-05-19T1424-CS-351.md)
 - [`sessions/2026-05-19T1342-CS-345.md`](sessions/2026-05-19T1342-CS-345.md)
-- [`sessions/2026-05-19T1012-CS-350.md`](sessions/2026-05-19T1012-CS-350.md)
 
 ## Consumer-contract ADRs
 
@@ -41,3 +41,4 @@ These are architecture decision records that consumers MUST read for the contrac
 
 - [`decisions/adr-017-public-bridge-mirror-pattern.md`](decisions/adr-017-public-bridge-mirror-pattern.md)
 - [`decisions/adr-035-cs357-migration-lobe-read-first-body-analysis.md`](decisions/adr-035-cs357-migration-lobe-read-first-body-analysis.md)
+- [`decisions/adr-037-cs368-migration-substrate-retirement.md`](decisions/adr-037-cs368-migration-substrate-retirement.md)
