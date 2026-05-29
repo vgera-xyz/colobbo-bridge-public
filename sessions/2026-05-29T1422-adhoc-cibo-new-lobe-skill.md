@@ -6,6 +6,9 @@ source: memory
 confidence: high
 lobe_version: 1.0.0
 status: active
+amended:
+  - timestamp: "2026-05-29T14:40:00Z"
+    reason: "--gated true smoke proven end-to-end on a dummy (CS-349 mechanism)"
 ---
 
 # cibo-new-lobe skill shipped (adhoc — no anchoring ticket)
@@ -57,6 +60,19 @@ No Linear ticket anchors this work (closest: CS-348 `new-lobe.sh`, Done; CS-349 
 - **cibo-new-lobe is ready for first real use** — invoke `/cibo-new-lobe` when the next greenfield Lobe is authored (e.g. the Phase-2 Performance or Design Lobes from the CS-373 derivation). First real run is the true integration test of the prose-fill quality.
 - **CS-349** (`new-lobe.sh --gated true` end-to-end smoke, Backlog) is now partially exercised — the ungated path is proven via this test-run; the gated path still unrun.
 - Migration critical path + agent-system M5/M6 are unchanged by this session (parallel ergonomics work).
+
+## Addendum 2026-05-29T1440 — --gated true smoke proven end-to-end on a dummy (CS-349 mechanism)
+
+Ran the `--gated true` path of `new-lobe.sh` (CS-349's open ask) on dummy `scratch-gated-lobe`, observed all mutations, then fully reverted — nothing committed; tree returned byte-identical to before-state.
+
+**Verified the gated codepath works end-to-end:**
+- `glaze.lobes[]` appended in **both** wares (colobbo 11→12, fintech 11→12 — ADR-011 parity), membership confirmed in each.
+- Gate-5 for-loop in `lobe-regression.yml` got the dummy appended to the iteration list.
+- Registry regenerated with `glaze_registered: true` (the flag is *derived* from glaze membership, so it cross-confirms the colobbo write).
+- `new-lobe.sh` internal gates both passed: **Gate 19 + Gate 14**.
+- Revert (`rm -r` lobe dir + `rm` agent + `git checkout --` the 3 tracked files + `registry-regen`) returned counts to 11/11/11, Gate-5 loop clean, Gate 19 green, zero strays.
+
+**Scope honesty:** this proves the gated **mechanism** (both-ware write, Gate-5 wiring, Gates 19+14) on a TODO-scaffold dummy. It does NOT exercise a real Lobe's *filled* content through the gated CI matrix (Gate 5 portability grep, per-Lobe fixtures) — that only happens when a genuine Lobe is gated. **CS-349 stays open (Backlog)** with a comment recording "mechanism proven, real-Lobe gated lifecycle still pending"; the active-plan parallel-track + last-session-delta lines were corrected from "--gated still unrun" to reflect this.
 
 ## See also
 
