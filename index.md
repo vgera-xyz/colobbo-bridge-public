@@ -1,9 +1,9 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-06-01T02:33:48Z"
-total_sessions_since_last_sync: 88
-public_sessions_since_last_sync: 88
-sessions_omitted_count: 78
+mirror_synced_at: "2026-06-01T07:16:27Z"
+total_sessions_since_last_sync: 3
+public_sessions_since_last_sync: 3
+sessions_omitted_count: 79
 source: mirror
 window_size: 10
 ---
@@ -18,12 +18,13 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 88
-- Of those, public: 88
-- Public sessions beyond the N=10 window (older, not mirrored here): 78
+- Sessions added or changed since last sync: 3
+- Of those, public: 3
+- Public sessions beyond the N=10 window (older, not mirrored here): 79
 
 ## Sessions in this mirror (newest first)
 
+- [`sessions/2026-06-01T0706-adhoc-migration-worker-and-cibo-migrate.md`](sessions/2026-06-01T0706-adhoc-migration-worker-and-cibo-migrate.md)
 - [`sessions/2026-06-01T0226-COL-306.md`](sessions/2026-06-01T0226-COL-306.md)
 - [`sessions/2026-05-29T1422-adhoc-cibo-new-lobe-skill.md`](sessions/2026-05-29T1422-adhoc-cibo-new-lobe-skill.md)
 - [`sessions/2026-05-29T0504-CS-391-CS-390.md`](sessions/2026-05-29T0504-CS-391-CS-390.md)
@@ -33,7 +34,6 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-05-27T2358-CS-386.md`](sessions/2026-05-27T2358-CS-386.md)
 - [`sessions/2026-05-27T1509-CS-385.md`](sessions/2026-05-27T1509-CS-385.md)
 - [`sessions/2026-05-26T1300-CS-379.md`](sessions/2026-05-26T1300-CS-379.md)
-- [`sessions/2026-05-26T0720-CS-378.md`](sessions/2026-05-26T0720-CS-378.md)
 
 ## Consumer-contract ADRs
 
