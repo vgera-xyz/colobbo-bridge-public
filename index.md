@@ -1,9 +1,9 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-06-17T16:25:53Z"
-total_sessions_since_last_sync: 101
-public_sessions_since_last_sync: 99
-sessions_omitted_count: 89
+mirror_synced_at: "2026-06-18T04:21:16Z"
+total_sessions_since_last_sync: 1
+public_sessions_since_last_sync: 1
+sessions_omitted_count: 90
 source: mirror
 window_size: 10
 ---
@@ -18,12 +18,13 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 101
-- Of those, public: 99
-- Public sessions beyond the N=10 window (older, not mirrored here): 89
+- Sessions added or changed since last sync: 1
+- Of those, public: 1
+- Public sessions beyond the N=10 window (older, not mirrored here): 90
 
 ## Sessions in this mirror (newest first)
 
+- [`sessions/2026-06-18T0413-CS-50.md`](sessions/2026-06-18T0413-CS-50.md)
 - [`sessions/2026-06-17T1609-CS-388.md`](sessions/2026-06-17T1609-CS-388.md)
 - [`sessions/2026-06-17T1518-CS-147.md`](sessions/2026-06-17T1518-CS-147.md)
 - [`sessions/2026-06-05T1202-COL-307.md`](sessions/2026-06-05T1202-COL-307.md)
@@ -33,7 +34,6 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 - [`sessions/2026-06-03T1041-COL-307.md`](sessions/2026-06-03T1041-COL-307.md)
 - [`sessions/2026-06-03T0715-COL-307.md`](sessions/2026-06-03T0715-COL-307.md)
 - [`sessions/2026-06-03T0451-COL-341.md`](sessions/2026-06-03T0451-COL-341.md)
-- [`sessions/2026-06-03T0359-adhoc-local-docker-dev-stack.md`](sessions/2026-06-03T0359-adhoc-local-docker-dev-stack.md)
 
 ## Consumer-contract ADRs
 
