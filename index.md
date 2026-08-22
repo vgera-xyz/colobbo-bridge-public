@@ -1,8 +1,8 @@
 ---
 title: "colobbo bridge mirror — index"
-mirror_synced_at: "2026-08-22T01:10:21Z"
-total_sessions_since_last_sync: 127
-public_sessions_since_last_sync: 127
+mirror_synced_at: "2026-08-22T05:47:43Z"
+total_sessions_since_last_sync: 3
+public_sessions_since_last_sync: 3
 sessions_omitted_count: 117
 source: mirror
 window_size: 10
@@ -18,13 +18,13 @@ One-way mirror of the latest 10 public bridge sessions from `colobbo-agent-syste
 
 ## Counts (this sync)
 
-- Sessions added or changed since last sync: 127
-- Of those, public: 127
+- Sessions added or changed since last sync: 3
+- Of those, public: 3
 - Public sessions beyond the N=10 window (older, not mirrored here): 117
 
 ## Sessions in this mirror (newest first)
 
-- [`sessions/2026-08-22T0103-adhoc-mcp-readiness.md`](sessions/2026-08-22T0103-adhoc-mcp-readiness.md)
+- [`sessions/2026-08-22T0540-COL-652.md`](sessions/2026-08-22T0540-COL-652.md)
 - [`sessions/2026-08-18T0219-COL-619.md`](sessions/2026-08-18T0219-COL-619.md)
 - [`sessions/2026-08-17T2332-CS-415.md`](sessions/2026-08-17T2332-CS-415.md)
 - [`sessions/2026-08-16T1401-CS-322.md`](sessions/2026-08-16T1401-CS-322.md)
